@@ -3,7 +3,7 @@ import './index.css';
 
 const ButtonCart = ({btnCart}) => (
     <div className="buttonCart-div">
-      <button className="btnCart" value={btnCart} />
+      <button className="btnCart">{btnCart}</button>
     </div>
     )
 
